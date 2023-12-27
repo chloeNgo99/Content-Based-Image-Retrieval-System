@@ -6,6 +6,7 @@ This test image database includes 100 true-color images in .jpg format.
 ### 2. Color Histogram
 Color histogram comparison is a simple but effective apporach in CBIR systems.
 Here are two ways to combine the information from 3 color channels (R, G, B):
+
 **A. Intensity Method**
 By this way, the 24-bit of RGB (8 bits for each color channel) color intensities can be transformed into a single 8-bit value. The histogram bins selected for this case are listed below:
 H 1 : I[0,10]; 
